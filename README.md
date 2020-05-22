@@ -20,3 +20,5 @@ Font files are not yet supported for prod, will need to set up so that they are 
 
 ## Special thanks
 Special thanks to freeCodeCamp and Colt Steele for producing a wonderful [Webpack for Beginners course](https://www.youtube.com/watch?v=MpGLUVbqoYQ). Learnings from that course have been applied here to make this project possible.
+
+Inspiration for BeckyBot from [Mark Wilkins](https://github.com/mwilkins91)
