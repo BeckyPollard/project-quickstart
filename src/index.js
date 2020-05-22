@@ -1,4 +1,7 @@
-import './main.css';
-import { run } from './scripts/script';
+import { helloWorld } from './scriptPartials/helloWorld';
+
+const run = () => {
+  helloWorld();
+};
 
 run();
