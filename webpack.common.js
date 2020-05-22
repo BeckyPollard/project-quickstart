@@ -14,14 +14,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.scss$/,
-        use: [
-          'style-loader', // 3. injects js styles into DOM
-          'css-loader', // 2. turns css into js
-          'sass-loader', // 1. turns scss into css
-        ],
-      },
-      {
         test: /\.html$/,
         use: [
           'html-loader', //require assets linked in html
