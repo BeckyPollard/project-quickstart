@@ -1,7 +1,3 @@
-const helloWorld = () => {
+export const helloWorld = () => {
   alert("HELLO WORLD");
-};
-
-export {
-  helloWorld
 };

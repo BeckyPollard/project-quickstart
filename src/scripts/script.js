@@ -1,4 +1,6 @@
-const helloWorld = require('./scriptPartials/helloWorld'); //browserfy
+import {
+  helloWorld
+} from "./scriptPartials/helloWorld"
 
 
 const run = () => {
