@@ -13,7 +13,7 @@ To run the local host for updating development and scss compile:
 To bundle everything for production, run:
 `npm run build`
 
-CSS and JS will be bundled, file names will have a hash added for cache busting, images will be collected.
+CSS and JS will be bundled, file names will have a hash added for cache busting, images will be collected into **/build/assets/images**.
 
 ## TODO
 Font files are not yet supported for prod, will need to set up so that they are bundled in **/build/assets/fonts** ideally.
