@@ -6,7 +6,7 @@ module.exports = merge(common, {
   mode: 'development',
   devtool: 'none', //for more readable main.js
   output: {
-    filename: 'main.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'build'),
   },
 });
