@@ -1,3 +1,3 @@
 export const helloWorld = () => {
-  alert("HELLO WORLD");
+  alert('HELLO WORLD (helloWorld.js)');
 };

@@ -1,1 +1,3 @@
-alert('🤖');
+import { run } from './scripts/script';
+
+run();

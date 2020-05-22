@@ -1,10 +1,5 @@
-import {
-  helloWorld
-} from "./scriptPartials/helloWorld"
+import { helloWorld } from './scriptPartials/helloWorld';
 
-
-const run = () => {
+export const run = () => {
   helloWorld();
-}
-
-run();
+};
