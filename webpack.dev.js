@@ -1,10 +1,11 @@
 const path = require('path');
 const common = require('./webpack.common');
 const merge = require('webpack-merge');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = merge(common, {
   mode: 'development',
-  devtool: 'none', //for more readable main.js
+  devtool: 'inline-source-map',
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'build'),
@@ -64,7 +65,7 @@ const randomQuote = () => {
   console.log('');
   console.log('');
   console.log('');
-  console.log('\x1b[40m\x1b[33m%s', beckyBotSays);
+  console.log('\x1b[40m\x1b[33m%s\x1b[0m', beckyBotSays);
   console.log('');
   console.log('');
   console.log('');
