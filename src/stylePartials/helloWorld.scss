@@ -1,7 +1,7 @@
 body {
-  background: #000;
+  background: cyan;
 
-  &>* {
-    background: pink;
+  & > * {
+    outline: solid 2px red;
   }
 }
