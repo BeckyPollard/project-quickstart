@@ -10,15 +10,18 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: 'index.html',
+      favicon: './src/favicon.ico',
     }),
     new HtmlWebpackPlugin({
       template: './src/about.html',
       filename: 'about.html',
+      favicon: './src/favicon.ico',
     }),
     // ADD FOR EACH NEW HTML PAGE
     // new HtmlWebpackPlugin({
-    //   template: './src/about.html',
-    //   filename: 'about.html',
+    //   template: './src/name.html',
+    //   filename: 'name.html',
+    //   favicon: './src/favicon.ico',
     // }),
     // TODO: better auto way of handling html pages?
   ],
@@ -31,7 +34,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(svg|png|jpg|jpe)$/,
+        test: /\.(ico|png|jpg|jpeg)$/,
         use: {
           loader: 'file-loader', //require assets linked in html
           options: {
