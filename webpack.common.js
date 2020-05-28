@@ -34,7 +34,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(ico|png|jpg|jpeg)$/,
+        test: /\.(svg|png|jpg|jpeg)$/,
         use: {
           loader: 'file-loader', //require assets linked in html
           options: {
