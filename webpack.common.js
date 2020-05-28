@@ -8,8 +8,19 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/main.html',
+      template: './src/index.html',
+      filename: 'index.html',
     }),
+    new HtmlWebpackPlugin({
+      template: './src/about.html',
+      filename: 'about.html',
+    }),
+    // ADD FOR EACH NEW HTML PAGE
+    // new HtmlWebpackPlugin({
+    //   template: './src/about.html',
+    //   filename: 'about.html',
+    // }),
+    // TODO: better auto way of handling html pages?
   ],
   module: {
     rules: [
