@@ -15,10 +15,6 @@ To bundle everything for production, run:
 
 CSS and JS will be bundled, file names will have a hash added for cache busting, images will be collected into **/build/assets/images**.
 
-## Todo
-- [x] Font files are not yet supported for prod, will need to set up so that they are bundled in **/build/assets/fonts** ideally.
-- [ ] Fix: Files linked in anchor tags aren't handled by file-loader.
-
 ## Special thanks
 Special thanks to freeCodeCamp and Colt Steele for producing a wonderful [Webpack for Beginners course](https://www.youtube.com/watch?v=MpGLUVbqoYQ). Learnings from that course have been applied here to make this project possible.
 
