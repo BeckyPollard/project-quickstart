@@ -15,6 +15,9 @@ To bundle everything for production, run:
 
 CSS and JS will be bundled, file names will have a hash added for cache busting, images will be collected into **/build/assets/images**.
 
+## Future Features
+- Publish project to NPM for easy template generation on local machine
+
 ## Special thanks
 Special thanks to freeCodeCamp and Colt Steele for producing a wonderful [Webpack for Beginners course](https://www.youtube.com/watch?v=MpGLUVbqoYQ). Learnings from that course have been applied here to make this project possible.
 
