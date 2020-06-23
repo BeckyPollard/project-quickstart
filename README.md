@@ -3,7 +3,7 @@ Template for personal projects, for quick coding starts.
 
 ## Setting it up
 1. Clone down the repo, or whatever you wanna do to get the code.
-2. Install dependancies `npm i`
+2. Install dependencies `npm i`
 
 ## Run the project
 To run the local host for updating development and scss compile:
