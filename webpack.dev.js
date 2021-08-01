@@ -10,6 +10,9 @@ module.exports = merge(common, {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'build'),
   },
+  resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx']
+  },
   module: {
     rules: [
       {
