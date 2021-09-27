@@ -3,8 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    app: './src/App.tsx',
-    vendor: ['react', 'react-dom'],
+    main: './src/main.js',
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -12,18 +11,6 @@ module.exports = {
       filename: 'index.html',
       favicon: './src/favicon.ico',
     }),
-    new HtmlWebpackPlugin({
-      template: './src/about.html',
-      filename: 'about.html',
-      favicon: './src/favicon.ico',
-    }),
-    // ADD FOR EACH NEW HTML PAGE
-    // new HtmlWebpackPlugin({
-    //   template: './src/name.html',
-    //   filename: 'name.html',
-    //   favicon: './src/favicon.ico',
-    // }),
-    // TODO: better auto way of handling html pages?
   ],
   module: {
     rules: [
@@ -34,11 +21,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(ts|tsx)$/,
-        loader: 'ts-loader'
-      },
-      {
-        test: /\.(svg|png|jpg|jpeg)$/,
+        test: /\.(svg|png|jpg|jpeg|ico)$/,
         use: {
           loader: 'file-loader', //require assets linked in html
           options: {
