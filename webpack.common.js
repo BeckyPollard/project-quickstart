@@ -9,7 +9,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: 'index.html',
-      favicon: './src/favicon.ico',
+      favicon: './src/assets/images/favicon.ico',
     }),
   ],
   module: {
@@ -21,21 +21,14 @@ module.exports = {
         ],
       },
       {
-        test: /\.(svg|png|jpg|jpeg|ico)$/,
-        use: {
-          loader: 'file-loader', //require assets linked in html
-          options: {
-            name: '[name]-[hash].[ext]',
-            outputPath: 'assets/images',
-          },
-        },
+        test: /\.(svg|png|jp?eg|gif|ico)$/i,
+        type: 'asset/resource',
       },
       {
         test: /\.(woff|woff2|ttf|otf|eot)$/,
         use: {
           loader: 'file-loader',
           options: {
-            name: '[name].[ext]',
             outputPath: 'assets/fonts',
           },
         },
