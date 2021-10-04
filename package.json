@@ -2,26 +2,17 @@
   "name": "quickstart-v3",
   "version": "1.0.0",
   "private": true,
-  "description": "template for personal projects for quick setup",
+  "description": "Quick setup template for personal projects.",
   "main": "main.tsx",
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BeckyPollard/quickstart-v2.git"
-  },
-  "keywords": [],
   "author": "Becky Pollard",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BeckyPollard/quickstart-v2/issues"
-  },
-  "homepage": "https://github.com/BeckyPollard/quickstart-v2#readme",
-  "devDependencies": {
-    "@types/node": "^16.3.0",
-    "@types/react": "^17.0.14",
+  "dependencies": {
+    "@types/node": "^16.10.2",
+    "@types/react": "^17.0.27",
     "@types/react-dom": "^17.0.9",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "@typescript-eslint/parser": "^4.26.0",
