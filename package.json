@@ -1,6 +1,6 @@
 {
-  "name": "quickstart-v3",
-  "version": "1.0.0",
+  "name": "project-quickstart-v3",
+  "version": "3.0.0",
   "private": true,
   "description": "Quick setup template for personal projects.",
   "main": "main.tsx",
