@@ -3,7 +3,7 @@ import React from 'react';
 type HelloWorldProps = {
   greeting: string,
 }
-function HelloWorld(props: HelloWorldProps) {
+export default function HelloWorld(props: HelloWorldProps) {
   console.log('%cHELLO WORLD (helloWorld.js)', 'background: #FF91AF; padding: 10px; color: #fff;');
   console.log(
     '%c↑ Example code, you should remove',
@@ -11,8 +11,8 @@ function HelloWorld(props: HelloWorldProps) {
   );
   return (
     <section>
-      <h1>Webpack 5 {props.greeting}</h1>
-      <img src="./assets/images/helloWorld.png" alt="Hello World" />
+      <h1>Webpack 5 !! {props.greeting}</h1>
+      <img src={require('../../assets/images/helloWorld.png')} alt="Hello World" />
       <div>
         <a href="https://github.com/BeckyPollard">Becky's GitHub</a>
         <a href="http://beckypollard.com">Becky's Website</a>
@@ -20,5 +20,3 @@ function HelloWorld(props: HelloWorldProps) {
     </section>
   );
 };
-
-export default HelloWorld;
