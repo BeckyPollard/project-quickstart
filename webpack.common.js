@@ -3,7 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    main: './src/main.js',
+    main: './src/main.tsx',
+    vendor: ['react', 'react-dom'],
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -12,6 +13,9 @@ module.exports = {
       favicon: './src/assets/images/favicon.ico',
     }),
   ],
+  resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx']
+  },
   module: {
     rules: [
       {
@@ -19,6 +23,10 @@ module.exports = {
         use: [
           'html-loader', //require assets linked in html
         ],
+      },
+      {
+        test: /\.tsx?$/,
+        loader: 'ts-loader'
       },
       {
         test: /\.(svg|png|jp?eg|gif|ico)$/i,
@@ -34,5 +42,9 @@ module.exports = {
         },
       },
     ],
+  },
+  devtool: 'inline-source-map',
+  resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx']
   },
 };

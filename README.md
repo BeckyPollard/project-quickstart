@@ -1,24 +1,32 @@
-# Becky's empty project template with Webpack
+# Becky's empty project template
 Template for personal projects, for quick coding starts.
 
-## Setting it up
-1. Clone down the repo, or whatever you wanna do to get the code.
+## ⭐️ Features
+- Webpack 5
+- SCSS
+- TypeScript
+- React
+
+## 🏗 Setting it up
+1. Clone down the repo, or whatever you wanna do to get this code.
 2. Install dependencies `npm i`
 
-## Run the project
-To run the local host for updating development and scss compile:
+## 🚀 Run the project
+To run the localhost development server:
 `npm start`
 
-## Prepping project for production
+## 📦 Prepping project for production
 To bundle everything for production, run:
 `npm run build`
 
-CSS and JS will be bundled, file names will have a hash added for cache busting, images will be collected into **/build/assets/images**.
+SCSS will be converted to CSS, TSX will be converted to JS, images will be collected into **/build/assets/images**... all good things will be bundled and ready to rock!
 
-## Future Features
-- Publish project to NPM for easy template generation on local machine
+## 🌻 Future Features
+- Publish project to NPM for easy template generation on local machine?
 
-## Special thanks
+## 🖤 Special thanks
 Special thanks to freeCodeCamp and Colt Steele for producing a wonderful [Webpack for Beginners course](https://www.youtube.com/watch?v=MpGLUVbqoYQ). Learnings from that course have been applied here to make this project possible.
 
-Inspiration for BeckyBot from [Mark Wilkins](https://github.com/mwilkins91). Thank you for providing us with excellent code to learn from.
+Inspiration for BeckyBot from [Mark Wilkins](https://github.com/mwilkins91). Thank you for providing us at Arson Team with excellent code to learn from!
+
+Thanks to [Evert Pot](https://github.com/evert) for teaching me React and TypeScript!
