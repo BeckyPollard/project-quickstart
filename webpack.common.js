@@ -3,7 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: {
-    main: './src/main.js',
+    main: './src/main.tsx',
+    vendor: ['react', 'react-dom'],
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -19,6 +20,10 @@ module.exports = {
         use: [
           'html-loader', //require assets linked in html
         ],
+      },
+      {
+        test: /\.(ts|tsx)$/,
+        loader: 'ts-loader'
       },
       {
         test: /\.(svg|png|jp?eg|gif|ico)$/i,

@@ -19,11 +19,14 @@ module.exports = merge(common, {
       },
     ],
   },
-  devtool: 'inline-source-map',
+  devtool: 'source-map',
+  resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx']
+  },
   devServer: {
     hot: true,
     static: ['./src'],
-  }
+  },
 });
 
 // extra, fun stuff
