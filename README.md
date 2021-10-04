@@ -21,9 +21,6 @@ To bundle everything for production, run:
 
 SCSS will be converted to CSS, TSX will be converted to JS, images will be collected into **/build/assets/images**... all good things will be bundled and ready to rock!
 
-## 🌻 Future Features
-- Publish project to NPM for easy template generation on local machine?
-
 ## 🖤 Special thanks
 Special thanks to freeCodeCamp and Colt Steele for producing a wonderful [Webpack for Beginners course](https://www.youtube.com/watch?v=MpGLUVbqoYQ). Learnings from that course have been applied here to make this project possible.
 
