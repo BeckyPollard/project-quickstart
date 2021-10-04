@@ -8,8 +8,9 @@ Template for personal projects, for quick coding starts.
 - React
 
 ## 🏗 Setting it up
-1. Clone down the repo, or whatever you wanna do to get this code.
-2. Install dependencies `npm i`
+1. Click "USE THIS TEMPLATE" and generate your new project.
+2. Clone down that new repo, or whatever you wanna do to get the code.
+3. Install dependencies `npm i`
 
 ## 🚀 Run the project
 To run the localhost development server:
