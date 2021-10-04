@@ -13,6 +13,9 @@ module.exports = {
       favicon: './src/assets/images/favicon.ico',
     }),
   ],
+  resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx']
+  },
   module: {
     rules: [
       {
@@ -22,7 +25,7 @@ module.exports = {
         ],
       },
       {
-        test: /\.(ts|tsx)$/,
+        test: /\.tsx?$/,
         loader: 'ts-loader'
       },
       {
@@ -39,5 +42,9 @@ module.exports = {
         },
       },
     ],
+  },
+  devtool: 'inline-source-map',
+  resolve: {
+    extensions: ['.js', '.jsx', '.ts', '.tsx']
   },
 };
