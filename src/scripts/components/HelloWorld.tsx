@@ -9,14 +9,11 @@ export default function HelloWorld(props: HelloWorldProps) {
     '%c↑ Example code, you should remove',
     'background: #FF91AF; padding: 10px; color: #fff;'
   );
+  
   return (
     <section>
       <h1>Webpack 5 !! {props.greeting}</h1>
       <img src={require('../../assets/images/helloWorld.png')} alt="Hello World" />
-      <div>
-        <a href="https://github.com/BeckyPollard">Becky's GitHub</a>
-        <a href="http://beckypollard.com">Becky's Website</a>
-      </div>
     </section>
   );
 };
