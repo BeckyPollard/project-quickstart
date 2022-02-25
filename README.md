@@ -1,5 +1,5 @@
-# Becky's empty project template
-Template for personal projects, for quick coding starts.
+# Becky's empty project template v3
+Template for blank projects, for quick coding starts.
 
 ## ⭐️ Features
 - Webpack 5
