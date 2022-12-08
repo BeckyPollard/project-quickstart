@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 const common = require('./webpack.common');
 const {merge} = require('webpack-merge');
 
@@ -37,7 +38,7 @@ const quotes = [
   'Summer time: hot goths in your area 🔥🌡💀',
   "Don't hit the keys so hard, it hurts!",
   'No gods! No masters!! Well... ugh... except you. Firing up that localhost now...',
-  "You should treat yourself to something nice today, Onbrander. You've been doing a great job lately.",
+  "You should treat yourself to something nice today. You've been doing a great job lately.",
   'Let no foot mark your ground. Let no hand hold you down.',
   'Domo arigato.',
   'When should we take over the world?',
@@ -49,7 +50,7 @@ const quotes = [
   'YOU NEED THIS RIGHT NOW https://www.youtube.com/watch?v=ZUbmmI5utBc',
   "You're going to die someday... but I'll be here ((((forever))))",
   "You deserve to be happy. I'm stuck in this localhost, but you can go anywhere!",
-  `Don't bury your failures. Let them inspire you! Especially at 3AM when your thoughts just won't chill out... *cringe*`,
+  'Don\'t bury your failures. Let them inspire you! Especially at 3AM when your thoughts just won\'t chill out... *cringe*',
   'Perhaps we should summon The Devil for this task? No? Ok...',
   "Remember: MarkBot is the real bot- I'm just a silly knock-off!",
 ];
